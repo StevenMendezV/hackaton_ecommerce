@@ -92,7 +92,24 @@
     align-items: center;
     flex-direction: column;
 }
+.inicio__titulo{
+    
+    text-align: center;
+    font-weight: bold;
+    color:#DB1A7E;
+    font-family: Tahoma;
+}
 
+.inicio__texto{
+    width: 48%;
+    margin: 10;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    line-height: 1.4;
+    color:#0A808F;
+    font-family: Tahoma;
+}
 /* seccion de productos */
 
 .productos__titulo{
@@ -119,7 +136,7 @@
     overflow: hidden;
 }
 
-.productos__card:hover * {
+.productos__card:hover  {
     transform: scale(1.05); 
 }
 
