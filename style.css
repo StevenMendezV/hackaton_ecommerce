@@ -3,9 +3,10 @@
 
 
 :root{
-    --color-primario: #070dfa;
+    --color-primario: #dbc204de;
     --color-blanco:#ffffff;
-    --color-secundario:#c7841a;
+    --color-secundario:#1AC5DB;
+    --color-terceario:#1A5FDB;
 }
 
 *{
@@ -70,6 +71,8 @@
     align-items: center;
 }
 
+/* tablas de productos */
+
 .card{
     width: 300px;
     height: 400px;
@@ -85,8 +88,6 @@
 .card__prueba{
     width: 90%;
     height: 45%;
-    background-color: #c7841a;
-    border-radius: 20px;
     margin: auto;
 }
 
@@ -100,7 +101,7 @@
 }
 
 .card__ahora{
-    background-color: #070dfa;
+    background-color: var(--color-terceario);
     height: 10vh;
     border-radius: 0 0 20px 20px;
     padding: 15px;
@@ -145,7 +146,7 @@
 
 .footer{
     text-align: center;
-    background: linear-gradient(180deg, rgba(87,62,213,1) 8%, rgba(7,13,250,1) 100%);
+    background: linear-gradient(180deg, rgba(26,197,219,1) 19%, rgba(7,13,250,1) 100%);
 }
 
 .footer__seccion{
