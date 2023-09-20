@@ -109,8 +109,7 @@
 .inicio__texto{
     width: 48%;
     margin: 10;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     font-weight: bold;
     line-height: 1.4;
     color:#0A808F;
@@ -273,7 +272,7 @@
 
 
 
-.carrito__compras{
+.carrito{
 text-align: center;
 padding: 20px;
 }
