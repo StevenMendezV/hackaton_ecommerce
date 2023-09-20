@@ -85,7 +85,8 @@
     text-align: center;
     margin:40px;
 }
-.productos :hover{
+
+.productos__card:hover * {
     transform: scale(1.05); 
 }
 
