@@ -86,7 +86,7 @@ function agregarProductoASeccion(divEspecifico){
     nuevoProductoAñadido.setAttribute('id', `${divEspecifico.querySelector("h3").textContent}`);
 
     //Creamos la seccion del producto para carrito
-    nuevoProductoAñadido.classList.add('producto');
+    nuevoProductoAñadido.classList.add('producto_creado');
     //creamos una imagen y le enlazamos el src de la imagen del html
     const imagen = document.createElement("img");
     imagenHTML = divEspecifico.querySelector("img");
