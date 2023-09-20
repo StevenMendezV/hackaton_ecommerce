@@ -56,6 +56,8 @@
 .navbar__link{
     text-decoration: none;
     color:#ffffff;
+    margin: 25px;
+    font-weight: 500;
 }
 
 .navbar__link:hover{
@@ -93,6 +95,10 @@
     flex-direction: column;
 }
 
+.logo__presentacion{
+    width: 70%;
+}
+
 /* seccion de productos */
 
 .productos__titulo{
@@ -100,6 +106,15 @@
 }
 
 .productos{
+    text-align: center;
+    padding: 30px;
+}
+
+.titulos__general{
+    margin: 20px;
+}
+
+.productos__container{
     padding: 40px;
     display: flex;
     flex-wrap: wrap;
@@ -141,7 +156,7 @@
 
 .card__ahora{
     background-color: #0A808F;
-    height: 10vh;
+    height: 15vh;
     border-radius: 0 0 10px 10px;
     padding: 15px;
 }
@@ -235,4 +250,21 @@
 .footer__terminos{
     color: var(--color-blanco);
     font-family: 'roboto';
+}
+
+/* seccion carrito de compras  */
+
+
+
+.carrito__compras{
+text-align: center;
+padding: 20px;
+}
+
+.producto__creado {
+    width: 200px;
+}
+
+.producto__creado img{
+    width: 200px;
 }
