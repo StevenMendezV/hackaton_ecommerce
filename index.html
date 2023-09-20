@@ -33,7 +33,7 @@
     <main>
                     <!-- <button onclick="agregarProductoASeccion()">Añadir al carrito</button> -->
             <section class="productos">
-                <div class="card">
+                <div class="card" id="coloresProducto">
                   
                     <img class= "card__prueba" src="/estilos/productosJPG/colores.jpg">                       
                     <h3 class="card__titulo">
@@ -53,11 +53,11 @@
                     </div>
                     <div class="card__ahora"> 
                         <a class="card__carrito" href="#">Carrito</a>
-                        <button onclick='agregarProductoASeccion(document.getElementById("carpetaProducto"))' class="compra">+</button>
+                        <button onclick='agregarProductoASeccion(document.getElementById("coloresProducto"))' class="compra">+</button>
                         <button class="compra">-</button> 
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="carpetaProducto">
                     <img class= "card__prueba" src="/estilos/productosJPG/carpeta.jpg">  
                     <h3 class="card__titulo">
                         Carpeta
@@ -80,7 +80,7 @@
                         <button class="compra">-</button>  
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="esferoProducto">
                     <img class= "card__prueba" src="/estilos/productosJPG/esfero.jpg">  
                     <h3 class="card__titulo">
                         Esfero
@@ -99,11 +99,11 @@
                     </div>
                     <div class="card__ahora"> 
                         <a class="card__carrito" href="#">Carrito</a>
-                        <button onclick='agregarProductoASeccion(document.getElementById("carpetaProducto"))' class="compra">+</button>
+                        <button onclick='agregarProductoASeccion(document.getElementById("esferoProducto"))' class="compra">+</button>
                         <button class="compra">-</button>  
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="reglaProducto">
                     <img class= "card__prueba" src="/estilos/productosJPG/regla.jpeg">  
                     <h3 class="card__titulo">
                         Regla
@@ -122,11 +122,11 @@
                     </div>
                     <div class="card__ahora"> 
                         <a class="card__carrito" href="#">Carrito</a>
-                        <button onclick='agregarProductoASeccion(document.getElementById("carpetaProducto"))' class="compra">+</button>
+                        <button onclick='agregarProductoASeccion(document.getElementById("reglaProducto"))' class="compra">+</button>
                         <button class="compra">-</button>   
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="resmaProducto">
                     <img class= "card__prueba" src="/estilos/productosJPG/resma.jpg">  
                     <h3 class="card__titulo">
                         Resma
@@ -145,11 +145,11 @@
                     </div>
                     <div class="card__ahora">
                         <a class="card__carrito" href="#">Carrito</a>    
-                        <button onclick='agregarProductoASeccion(document.getElementById("carpetaProducto"))' class="compra">+</button>
+                        <button onclick='agregarProductoASeccion(document.getElementById("resmaProducto"))' class="compra">+</button>
                         <button class="compra">-</button>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="cuadernoProducto">
                     <img class= "card__prueba" src="/estilos/productosJPG/cuadernos.jpg">  
                     <h3 class="card__titulo">
                         Cuadernos
@@ -168,7 +168,7 @@
                     </div>
                     <div class="card__ahora"> 
                         <a class="card__carrito" href="#">Carrito</a> 
-                        <button onclick='agregarProductoASeccion(document.getElementById("carpetaProducto"))' class="compra">+</button>
+                        <button onclick='agregarProductoASeccion(document.getElementById("cuadernoProducto"))' class="compra">+</button>
                         <button class="compra">-</button>  
                     </div>
                 </div>
@@ -177,7 +177,9 @@
             </section>
 
             <!-- esta linea es de estiven ? -->
-        <section id="carritoCompras"></section>
+        <section id="carritoCompras">
+            
+        </section>
 
     </main>
     <footer class="footer">
@@ -196,6 +198,7 @@
             <p class="footer__terminos">informacion legal | politica de privacidad</p>
         </div>        
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
