@@ -5,7 +5,7 @@
 :root{
     --color-primario: #dbc204de;
     --color-blanco:#ffffff;
-    --color-secundario:#1AC5DB;
+    --color-secundario:#DB1A7E;
     --color-terceario:#1A5FDB;
 }
 
@@ -23,7 +23,7 @@
 }
 #carritoConteo:hover{
     transform: scale(1.05);
-    color:#DB1A7E;
+    color:var(--color-secundario);
 }
 .navbar{
     width: 100%;
@@ -62,14 +62,14 @@
 
 .navbar__link:hover{
     transform: scale(1.05);
-    color:#DB1A7E;
+    color:var(--color-secundario);
 }
 .bx-cart-alt{
     color: white;
 }
 .bx-cart-alt:hover{
     transform: scale(1.05);
-    color:#DB1A7E;
+    color:var(--color-secundario);
 }
 
 .navbar i{
@@ -188,7 +188,7 @@
 .card__precio{
     font-size: 20px;
     font-weight: bold;
-    color:#DB1A7E;
+    color:var(--color-secundario);
     
 }
 .card__valor{
@@ -237,20 +237,20 @@
 }
 .bxl-facebook-square:hover {
     transform: scale(1.05);
-    color:#DB1A7E;
+    color:var(--color-primario);
 
 }
 .bxl-instagram:hover {
     transform: scale(1.05);
-    color:#DB1A7E;
+    color:var(--color-primario);
 }
 .bxl-amazon:hover{
     transform: scale(1.05);
-    color:#DB1A7E;
+    color:var(--color-primario);
 }
 .bxl-ebay:hover{
     transform: scale(1.2);
-    color:#DB1A7E;
+    color:var(--color-primario);
 }
 .footer__logo{
     width: 200px;
