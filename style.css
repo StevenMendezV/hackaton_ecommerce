@@ -81,7 +81,23 @@
 }
 
 
+/* seccion inicio */
+.inicio{
+    background-image: url(/estilos/articulo-papeleria-distribuidora-1024x576.webp);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 /* seccion de productos */
+
+.productos__titulo{
+    display: block;
+}
 
 .productos{
     padding: 40px;
@@ -100,6 +116,7 @@
     box-shadow: 2px 2px 10px 3px #0000007e;
     text-align: center;
     margin:40px;
+    overflow: hidden;
 }
 
 .productos__card:hover * {
@@ -118,7 +135,7 @@
 }
 
 .card__calificacion{
-    margin: 10px 0;
+    margin: 10px;
     color: yellow;
 }
 
@@ -134,7 +151,6 @@
     margin-right: 15px;
     font-size: 16px;
     font-family: 'roboto';
-   
 }
 
 .card__precio{
@@ -152,8 +168,6 @@
 .card__carrito{
     color: #ffffff;
     font-size: 20px;
-   
-
 }
 
 .compra{
