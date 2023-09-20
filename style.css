@@ -81,8 +81,9 @@
     text-align: center;
     margin:40px;
 }
-.productos :hover{
-    transform: scale(1.05); 
+
+.card_productos:hover{
+    transform: scale(1.05);
 }
 
 .card__prueba{
