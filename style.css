@@ -41,6 +41,10 @@
     margin: 10px;
 }
 
+.navbar__link{
+    text-decoration: none;
+}
+
 
 .navbar i{
     font-size: 30px;
