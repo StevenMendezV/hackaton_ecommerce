@@ -113,10 +113,6 @@ function agregarProductoASeccion(divEspecifico){
     precioProducto.textContent = contenidoOriginalPrecio;
     nuevoProductoAñadido.appendChild(precioProducto);
 
-    
-    
-    
-    
     elementosCreados.push({
         nombre: nombreProductoNuevo.trim(),
         cantidad: 1
