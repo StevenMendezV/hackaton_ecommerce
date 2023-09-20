@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <header>
+
+        <!-- barra de navegacion -->
+
+        <nav class="navbar">
+            <img class="navbar__logo" src="estilos/logo_papelearte.png" alt="logo">
+
+            <ul class="navbar__lista">
+                <li class="navbar__elemento"><a href="#">Inicio</a></li>
+                <li class="navbar__elemento"><a href="#">Productos</a></li>
+                <li class="navbar__elemento"><a href="#">Ofertas</a></li>
+                <li class="navbar__elemento"><a href="#">Contacto</a></li>
+            </ul>
+
+            <div class="navbar__carrito">
+                <i class='bx bx-cart-alt' style='color:#ffffff'></i>
+                <a href="#" id="carritoConteo">Carrito (0)</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+                    <!-- <button onclick="agregarProductoASeccion()">Añadir al carrito</button> -->
+            <section class="productos">
+                <div class="card">
+                  
+                    <img class= "card__prueba" src="/estilos/productosJPG/colores.jpg">                       
+                    <h3 class="card__titulo">
+                        Colores
+                    </h3>
+                    <p class="card__descripcion">
+                        Los colores con la mayor gama del mercado <br>
+                        <span class="card__precio">Precio</span>
+                        <span class="card__valor">$18,000</span>
+                    </p>
+                    <div class="card__calificacion">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <div class="card__ahora"> 
+                        <a class="card__carrito" href="#">Carrito</a>
+                        <button onclick='agregarProductoASeccion(document.getElementById("carpetaProducto"))' class="compra">+</button>
+                        <button class="compra">-</button> 
+                    </div>
+                </div>
+                <div class="card">
+                    <img class= "card__prueba" src="/estilos/productosJPG/carpeta.jpg">  
+                    <h3 class="card__titulo">
+                        Carpeta
+                    </h3>
+                    <p class="card__descripcion">
+                        Las mejores carpetas resistentes al agua del mercado<br>
+                        <span class="card__precio">Precio</span>
+                        <span class="card__valor">$25,000</span>
+                    </p>
+                    <div class="card__calificacion">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <div class="card__ahora">
+                        <a class="card__carrito" href="#">Carrito</a>  
+                        <button onclick='agregarProductoASeccion(document.getElementById("carpetaProducto"))' class="compra">+</button>
+                        <button class="compra">-</button>  
+                    </div>
+                </div>
+                <div class="card">
+                    <img class= "card__prueba" src="/estilos/productosJPG/esfero.jpg">  
+                    <h3 class="card__titulo">
+                        Esfero
+                    </h3>
+                    <p class="card__descripcion">
+                        Los esferos de mayor durabilidad del mercado<br>
+                        <span class="card__precio">Precio</span>
+                        <span class="card__valor">$2,500</span>
+                    </p>
+                    <div class="card__calificacion">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <div class="card__ahora"> 
+                        <a class="card__carrito" href="#">Carrito</a>
+                        <button onclick='agregarProductoASeccion(document.getElementById("carpetaProducto"))' class="compra">+</button>
+                        <button class="compra">-</button>  
+                    </div>
+                </div>
+                <div class="card">
+                    <img class= "card__prueba" src="/estilos/productosJPG/regla.jpeg">  
+                    <h3 class="card__titulo">
+                        Regla
+                    </h3>
+                    <p class="card__descripcion">
+                        Las reglas con mayor precision y exactitud del mercado<br>
+                        <span class="card__precio">Precio</span>
+                        <span class="card__valor">$3,000</span>
+                    </p>
+                    <div class="card__calificacion">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <div class="card__ahora"> 
+                        <a class="card__carrito" href="#">Carrito</a>
+                        <button onclick='agregarProductoASeccion(document.getElementById("carpetaProducto"))' class="compra">+</button>
+                        <button class="compra">-</button>   
+                    </div>
+                </div>
+                <div class="card">
+                    <img class= "card__prueba" src="/estilos/productosJPG/resma.jpg">  
+                    <h3 class="card__titulo">
+                        Resma
+                    </h3>
+                    <p class="card__descripcion">
+                        La resma mas amigable con el medio ambiente del mercado<br>
+                        <span class="card__precio">Precio</span>
+                        <span class="card__valor">$24,000</span>
+                    </p>
+                    <div class="card__calificacion">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <div class="card__ahora">
+                        <a class="card__carrito" href="#">Carrito</a>    
+                        <button onclick='agregarProductoASeccion(document.getElementById("carpetaProducto"))' class="compra">+</button>
+                        <button class="compra">-</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class= "card__prueba" src="/estilos/productosJPG/cuadernos.jpg">  
+                    <h3 class="card__titulo">
+                        Cuadernos
+                    </h3>
+                    <p class="card__descripcion">
+                        Los cuadernos de mayor calidad del mercado<br>
+                        <span class="card__precio">Precio</span>
+                        <span class="card__valor">$13,000</span>
+                    </p>
+                    <div class="card__calificacion">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <div class="card__ahora"> 
+                        <a class="card__carrito" href="#">Carrito</a> 
+                        <button onclick='agregarProductoASeccion(document.getElementById("carpetaProducto"))' class="compra">+</button>
+                        <button class="compra">-</button>  
+                    </div>
+                </div>
+
+
+            </section>
+
+            <!-- esta linea es de estiven ? -->
+        <section id="carritoCompras"></section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer__seccion">
+            <ul class="footer__redes">
+                <li class="footer__sociales"><i class='bx bxl-facebook-square'></i></li>
+                <li class="footer__sociales"><i class='bx bxl-instagram' style='color:#ffffff' ></i></li>
+                <li class="footer__sociales"><i class='bx bxl-amazon'></i></li>
+                <li class="footer__sociales"><i class='bx bxl-ebay'></i></li>
+            </ul>
+        </div>
+        <div class="footer__final">
+            <hr>
+            <img class="footer__logo" src="/logo_papelearte.svg" alt="logo">
+            <h6 class="footer__copyright">copyright</h6>
+            <p class="footer__terminos">informacion legal | politica de privacidad</p>
+        </div>        
+    </footer>
+</body>
+
+</html>
