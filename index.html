@@ -18,22 +18,22 @@
             <img class="navbar__logo" src="estilos/productosSVG/logo_final.svg" alt="logo">
 
             <ul class="navbar__lista">
-                <li class="navbar__elemento"><a class="navbar__link" href="#">Inicio</a></li>
-                <li class="navbar__elemento"><a class="navbar__link" href="#">Productos</a></li>
+                <li class="navbar__elemento"><a class="navbar__link" href="#inicios">Inicio</a></li>
+                <li class="navbar__elemento"><a class="navbar__link" href="#producto">Productos</a></li>
                 <li class="navbar__elemento"><a class="navbar__link" href="#">Ofertas</a></li>
-                <li class="navbar__elemento"><a class="navbar__link" href="#">Contacto</a></li>
+                <li class="navbar__elemento"><a class="navbar__link" href="#contacto">Contacto</a></li>
             </ul>
 
             <div class="navbar__carrito">
-                <i class='bx bx-cart-alt'></i>
-                <a href="#" id="carritoConteo">Carrito (0)</a>
+                <i class='bx bx-cart-alt' ></i>
+                <a href="#carritoCompras" id="carritoConteo">Carrito (0)</a>
             </div>
         </nav>
     </header>
     <main>
 
         <!-- seccion inicio -->
-        <section class="inicio">
+        <section class="inicio" id ="inicios">
             <h1 class="inicio__titulo">Inspira, Crea, Transforma con: </h1>
                 <img class="logo__presentacion" src="/estilos/productosSVG/logo_final.svg" alt="">
             
@@ -41,9 +41,8 @@
         </section>
         <!-- seccion productos -->
                     <!-- <button onclick="agregarProductoASeccion()">Añadir al carrito</button> -->
-            <section class="productos">
-                
-                <h2 class="titulos__general" >PRODUCTOS</h2>
+            <section class="productos" id="producto">
+                <image class="producto__imagen" src="/estilos/productosSVG/productos.svg"></image>
                 <!-- tablas de productos -->
                 <div class="productos__container">
                     <div class="productos__card">
@@ -211,8 +210,36 @@
 
                 <!-- seccion carrito de compras -->
         <section class="carrito__compras" id="carritoCompras">
-            <h2 class="titulos__general">CARRITO DE COMPRAS</h2>
+            <img class="titulo__carrito" src="/estilos/productosSVG/carritocompras.svg"></img>
+           
         </section>
+        <section class="contactos" id="contacto">
+           <img class="titulo__contactos" src="/estilos/productosSVG/contacto.svg"></img>
+           <div class="container footer__caption">
+            <section class="download">
+                <h3 class="title__footer">Descarga nuestra App</h3>
+                <div class="download__app">
+                    <div class="download__item">
+                        <i class='bx bxl-apple download__logo' ></i>
+                        <h4 class="download__title">App Store</h4>
+                    </div>
+                    <div class="download__item">
+                        <i class='bx bxl-play-store download__logo' ></i>
+                        <h4 class="download__title">Play Store</h4>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="get-email">
+                <h3 class="title__footer">¿Estás listo para crear con nosotros?</h3>
+                <form class="newsletter newsletter--modifier">
+                    <input type="text" class="newsletter__input" placeholder="Ingresa tu email">
+                    <input type="submit" class="newsletter__submit" value="Comienza hoy">
+                </form>              
+            </section>
+        </div>
+        </section>
+
     </main>
     <!-- footer -->
     <footer class="footer">
