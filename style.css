@@ -279,8 +279,17 @@ padding: 20px;
 
 .producto__creado {
     width: 200px;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .producto__creado img{
     width: 200px;
+}
+
+.carrito__compras{
+    display: flex;
+    align-items: center;
 }
