@@ -339,7 +339,7 @@ padding: 20px;
     outline: none;
     font-family: inherit;
     border-radius: 6px;
-    border: 1px solid var(--black1)
+    border: 1px solid var(--color-terceario)
 }
 
 .newsletter__submit{
@@ -347,8 +347,8 @@ padding: 20px;
     right: 8px;
     top: 10%;
     height: 80%;
-    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
-    color: #fff;
+    background: var(--color-terceario);
+    color: white;
     padding: 0 15px;
     border: none;
     border-radius: 6px;
@@ -358,9 +358,6 @@ padding: 20px;
 }
 
 .newsletter__submit:hover{
-
-    background-color: #d8ca0b6b;
-    color: #f7eeee6b;
     transform: scale(1.05);  
 }
 
@@ -376,6 +373,8 @@ padding: 20px;
 .title__footer{
     font-size: 24px;
     margin-bottom: 32px;
+    color: #0A808F;
+    margin-left: 20px;
 }
 
 .download{
@@ -390,10 +389,10 @@ padding: 20px;
     display: flex;
     padding: 18px 12px;
     border-radius: 6px;
-    border: 1px solid var(--black2);
+    border: 1px solid var(--color-terceario);
     width: 42%;
     align-items: center;
-    margin-right: 20px;
+    margin-left: 20px;
     margin-bottom: 16px;
 }
 .download__item:hover{
@@ -402,10 +401,12 @@ padding: 20px;
 .download__logo{
     font-size: 40px;
     margin-right: 20px;
+    color: var(--color-primario);
 }
 
 .download__title{
     font-size: 18px;
+    color:#0A808F;
 }
 
 
