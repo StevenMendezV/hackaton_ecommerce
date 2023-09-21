@@ -106,6 +106,8 @@
     font-family: Tahoma;
 }
 
+
+
 .inicio__texto{
     width: 48%;
     margin: 10;
@@ -125,7 +127,13 @@
     text-align: center;
     padding: 30px;
 }
+.producto__imagen{
+    width: 65%;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
 
+}
 .titulos__general{
     margin: 20px;
 }
@@ -139,7 +147,9 @@
 }
 
 /* tablas de productos */
-
+.producto__imagen{
+    align-content: center;
+}
 .card{
     width: 300px;
     height: 400px;
@@ -207,8 +217,23 @@
     height: 20px;
     border-radius: 25px;
 }
+/* carrito de compras */
 
+.carrito__compras{
+    text-align: center;
+    padding: 30px;
+}
+.titulo__carrito{
+    width: 60%;
+    align-content: center;
+}
 
+/* contactos */
+.titulo__contactos{
+    width: 60%;
+    align-content: center;
+    margin-left: 300px;
+}
 
 /* footer */
 
@@ -289,7 +314,101 @@ padding: 20px;
     width: 200px;
 }
 
-.carrito__compras{
+
+/* contacto */
+
+.newsletter{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: auto;
+    font-family: inherit;
+    position: relative;
+    border-radius: 6px;
+}
+
+.newsletter--modifier{
+    margin: 0;
+    width: 80%;
+}
+
+.newsletter__input{
+    width: 100%;
+    height: 100%;
+    padding: 22px 10px;
+    outline: none;
+    font-family: inherit;
+    border-radius: 6px;
+    border: 1px solid var(--black1)
+}
+
+.newsletter__submit{
+    position: absolute;
+    right: 8px;
+    top: 10%;
+    height: 80%;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    color: #fff;
+    padding: 0 15px;
+    border: none;
+    border-radius: 6px;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.newsletter__submit:hover{
+
+    background-color: #d8ca0b6b;
+    color: #f7eeee6b;
+    transform: scale(1.05);  
+}
+
+
+
+.footer__caption{
     display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+
+
+.title__footer{
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.download{
+    width: 50%;
+}
+
+.download__app{
+    display: flex;
+}
+
+.download__item{
+    display: flex;
+    padding: 18px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--black2);
+    width: 42%;
     align-items: center;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+.download__item:hover{
+    transform: scale(1.05);  
+}
+.download__logo{
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.download__title{
+    font-size: 18px;
+}
+
+
+.get-email{
+    width: 50%;
 }
